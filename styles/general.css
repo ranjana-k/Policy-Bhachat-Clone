@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid #000; */
+}
+
+body {
+  font-family: Roboto, Arial;
+}
+
+.fixed-mail-container {
+  height: 80px;
+  position: fixed;
+  background-color: red;
+  z-index: 999;
+}

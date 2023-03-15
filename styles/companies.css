@@ -1,0 +1,27 @@
+.companies-section {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.companies-section h2 {
+  margin-bottom: 20px;
+}
+.companies-list {
+  width: 900px;
+  display: grid;
+  grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+}
+
+.companies-img img {
+  width: 55px;
+  border: 1px solid rgb(177, 175, 175);
+  margin: 5px;
+  border-radius: 4px;
+  padding: 5px 5px;
+}
+
+/* .companies-img {
+  padding: 10px;
+} */

@@ -1,0 +1,22 @@
+.service-section-container {
+  background-color: #f7f7f7;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-section-container h2 {
+  margin-bottom: 30px;
+}
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service {
+  width: 300px;
+}
+
+.service img {
+}

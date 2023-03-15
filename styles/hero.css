@@ -1,0 +1,53 @@
+.main-hero {
+  background-color: rgb(159, 130, 239);
+  min-height: 700px;
+}
+
+.hero-text-container {
+  color: white;
+  text-align: center;
+}
+
+.hero-text-container h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.hero-form-container {
+  background-color: #fff;
+  width: 600px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 5px;
+}
+.form-container {
+  padding: 15px;
+}
+.form-container h4 {
+  font-size: 18px;
+  color: rgb(95, 46, 239);
+}
+.form-menu {
+  border-bottom: 1px solid rgb(147, 144, 144);
+}
+.form-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-menu li {
+  padding: 10px 0;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-shadow: inset rgba(147, 145, 145, 0.12) 0px 1px 3px,
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border: none;
+  border-radius: 5px;
+}

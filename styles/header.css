@@ -1,0 +1,55 @@
+.header-top {
+  color: white;
+  background-color: #3da291;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.header-top img {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 20px;
+  height: 16px;
+}
+
+nav img {
+  width: 120px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+.header-right {
+  font-size: 14px;
+
+  text-align: right;
+}
+.header-right-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.hiring-text {
+  margin-right: 10px;
+}
+.call-text {
+  color: rgb(119, 119, 119);
+}
+
+.header-right-bottom {
+  display: block;
+  color: rgb(119, 119, 119);
+}
+a {
+  color: rgb(0, 150, 136);
+  text-decoration: none;
+}
+
+/* .header-right:first-child {
+  margin-right: 10px;
+} */
