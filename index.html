@@ -27,7 +27,7 @@
   </head>
   <body>
     <header>
-      <div class="header-top">
+      <!-- <div class="header-top">
         3 mantras to fight corona: 1.
         <img alt="" src="assets/mask-face-solid.svg" />Wear mask 2.<img
           alt=""
@@ -36,7 +36,7 @@
         syringe-solid Take vaccination 3.
         <img alt="" src="assets/file-lines-regular.svg" />file-lines-regular Buy
         insurance
-      </div>
+      </div> -->
       <nav>
         <div class="header-main">
           <div class="header-left">
@@ -59,51 +59,79 @@
       </nav>
     </header>
     <main>
-      <section class="main-hero">
-        <div class="hero-text-container">
-          <h1>Start Saving Money on Insurance Policy</h1>
-          <p>
-            Compare Life, Health, Car and Two wheeler Insurance rates from top
-            Insurance companies for free.
-          </p>
-        </div>
-        <div class="hero-form-container">
-          <div class="form-menu">
-            <ul class="form-menu-link">
-              <li>Car</li>
-              <li>Term</li>
-              <li>Investment</li>
-              <li>Health</li>
-              <li>Bike</li>
-            </ul>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__text">
+            <h1>Start Saving Money on Insurance Policy</h1>
+            <p>
+              Compare Life, Health, Car and Two wheeler Insurance rates from top
+              Insurance companies for free.
+            </p>
           </div>
-          <div class="form-container">
-            <h4>Compare Car Insurance Quotes</h4>
-            <form>
-              <select>
-                <option>Search for your car</option>
-                <option>MARUTI SUZUKI</option>
-                <option>HYUNDAI</option>
-                <option>TATA</option>
-                <option>MAHINDRA</option>
-                <option>HONDA</option>
-                <option>TOYOTA</option>
-              </select>
-              <select>
-                <option>Search for your RTO Location</option>
-                <option>Pune</option>
-                <option>Bangalore</option>
-                <option>Delhi</option>
-                <option>Hydrabad</option>
-              </select>
-              <input type="date" placeholder="Registered Date(DD/MM/YYYY)" />
-              <input type="email" placeholder="Enter your email address" />
-              <p>
-                By clicking on Start Saving Money, you agreed to our Privacy &
-                Security and Terms & Conditions.
-              </p>
-              <input type="button" value="START SAVING MONEY" />
-            </form>
+          <div class="hero__form">
+            <div class="hero__form-menu">
+              <ul class="form-menu-links">
+                <li>Car</li>
+                <li>Term</li>
+                <li>Investment</li>
+                <li>Health</li>
+                <li>Bike</li>
+              </ul>
+            </div>
+            <div class="form-fields">
+              <h4>Compare Car Insurance Quotes</h4>
+              <form>
+                <div class="form-row">
+                  <select>
+                    <option>Search for your car</option>
+                    <option>MARUTI SUZUKI</option>
+                    <option>HYUNDAI</option>
+                    <option>TATA</option>
+                    <option>MAHINDRA</option>
+                    <option>HONDA</option>
+                    <option>TOYOTA</option>
+                  </select>
+                </div>
+                <div class="form-row">
+                  <select>
+                    <option>Search for your RTO Location</option>
+                    <option>Pune</option>
+                    <option>Bangalore</option>
+                    <option>Delhi</option>
+                    <option>Hydrabad</option>
+                  </select>
+                </div>
+                <div class="form-row">
+                  <input
+                    type="date"
+                    placeholder="Registered Date(DD/MM/YYYY)"
+                  />
+                </div>
+                <div class="form-row">
+                  <input type="email" placeholder="Enter your email address" />
+                </div>
+
+                <p class="agree">
+                  By clicking on Start Saving Money, you agreed to our Privacy &
+                  Security and Terms & Conditions.
+                </p>
+                <input
+                  type="button"
+                  value="START SAVING MONEY"
+                  class="submit-button"
+                />
+              </form>
+              <div class="quote">
+                <div class="quote-reviews">
+                  <p>STARS</p>
+                  1,000+ Reviews
+                </div>
+                <div class="quote-text">
+                  <p>Been Here Before?</p>
+                  <p>Get Back to My Quotes</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
